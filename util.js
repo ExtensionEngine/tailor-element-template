@@ -17,6 +17,5 @@ function handleStatics(element, defaultHandler, generalHandler) {
 
 module.exports = {
   ...info,
-  handleStatics,
-  type: 'CUSTOM_ELEMENT'
+  handleStatics
 };
