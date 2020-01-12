@@ -10,6 +10,7 @@ const info = require('./info');
  * @param {Function} generalHandler - Either Tailor's statics processing or resolution wrapper
  * which calls either the default handler or the general handler. This is used for
  * complex content elements which contain other complex content elements.
+ * @return {Object} element with handled statics
  */
 function handleStatics(element, defaultHandler, generalHandler) {
 
